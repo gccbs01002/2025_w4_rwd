@@ -16,25 +16,25 @@
 }
 
 .bg-primary-100{
-	background-color: var(--primary-100);
+	background-color: $primary-100;
 
 }
 
 .bg-neutral-100{
-	background-color: var(--neutral-100);
+	background-color: $neutral-100;
 
 }
 
 .text-white{
-	color: var(--neutral-0)
+	color: $neutral-0;
 }
 
 .text-neutral-400 {
-	color: var(--primary-400)
+	color: $primary-400
 }
 
 .text-neutral-600 {
-	color: var(--neutral-600)
+	color: $neutral-600
 }
 
 .row {
@@ -65,7 +65,7 @@
 
 /*文字顏色通用樣式*/
 .text-primary-400{
-	color: var(--primary-400);
+	color: $primary-400;
 }
 
 
@@ -126,7 +126,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: var(--primary-400);	
+	background-color: $primary-400;	
 	padding: 152px 0; /*期望400，400-248*/
 	text-align: center;
 	
@@ -210,18 +210,6 @@ margin-right: 16px;
 
 
 
-
-
-
-
-
-
-mb-md-32
-mb-md-16
-p-md-24
-
-
-
 /*要算數學*/
 .intro-img {
   max-width: 100%;
@@ -243,7 +231,7 @@ p-md-24
 
 a .title{
 	text-decoration-line: underline;
-	color: var(--primary-400);
+	color: $primary-400;
 	text-underline-offset: 4px;
 	display: inline;
 
@@ -280,7 +268,7 @@ footer{
 .brand-title{
 	font-weight: bold;
 	font-size: 24px;
-	color: var(--primary-400);
+	color: $primary-400;
 
 }
 
@@ -295,17 +283,17 @@ footer{
 }
 
 .section-lined {
-	border-bottom: 1px solid var(--neutral-300);
+	border-bottom: 1px solid $neutral-300;
 	padding-bottom: 48px;
 }
 
 .border-b{	
-	border-bottom: 1px solid var(--neutral-300);
+	border-bottom: 1px solid $neutral-300;
 }
 
 
 .history-desc{
-	border-left: 1px solid var(--neutral-900); 
+	border-left: 1px solid $neutral-900; 
 	padding-left: 8px;
 }
 
@@ -327,14 +315,14 @@ footer{
 
 .concept-item{
 	padding-left: 12px;
-	border-left: 3px solid var(--neutral-300);
+	border-left: 3px solid $neutral-300;
 }
 
 
 /*使用icon的class名稱來做設定*/
 /*vertical-align: bottom;   ICON的文字對其-底部對其*/
 .bi-arrow-up-right {
-	color: var(--primary-400);
+	color: $primary-400;
 	padding-right: 8px;
 }
 
@@ -342,7 +330,7 @@ footer{
 footer {
 	text-align: center;
 	justify-content: center;    
-	background-color: var(--neutral-100);
+	background-color: $neutral-100;
 	font-size: 14px;
 	color: #6C757D;
 }

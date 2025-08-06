@@ -1,0 +1,22 @@
+/*引入字體(外部資源放在最上)*/
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+@import "./helper/variables";
+@import "./helper/utils";
+
+
+@import "./base/reset";
+@import "./base/base";
+
+
+@import "./components/breadcrumb";
+@import "./components/button";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+
+@import "./pages/index";
+@import "./pages/products";

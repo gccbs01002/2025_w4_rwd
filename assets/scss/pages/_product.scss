@@ -1,0 +1,208 @@
+/*產品的圖片*/
+
+.product-row {
+display: flex;
+flex-wrap: wrap;
+
+margin-left: -4px;
+margin-right: -4px;
+}
+
+
+.product-col {
+    
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+.del-price{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #ADB5BD;
+    padding-left: 8px;
+}
+
+.product-color{
+    line-height: 1.5;
+    font-weight: 500;
+    color: #6C757D;
+    width: 160px;
+}
+
+
+.btn-product-size1.active,
+.btn-product-size1:hover {
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #212529;
+
+}
+
+
+.btn-product-size1 {
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #DEE2E6;
+
+}
+
+.b-line{
+    border-bottom: 1px solid;
+    border-color: #DEE2E6;
+
+}
+
+
+.gap-8{
+    gap: 8px;
+}
+
+.gap-24{
+    gap: 24px;
+}
+
+.btw{
+    font-weight: 700;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btw-row h4{
+    
+font-weight: 700;
+}
+
+
+.justify-center{
+    justify-content: center;    
+}
+
+.border-b{
+    border-bottom: solid 1px  #DEE2E6;
+}
+
+
+.footer-bg{
+    background: #F8F9FA;
+}
+
+.copyright{
+    color: #6C757D;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media(max-width: 767px){
+		.d-sm-none-L {
+		display: none;
+	}
+
+
+}
+
+
+
+ /* 📱 手機寬度：縮小內部 padding */
+
+@media(max-width: 767px){
+        .d-sm-none{
+        display: none;
+    }
+}
+    	.p-md-24{
+		padding: 24px;
+	}
+	.me-md-40{
+		margin-right: 40px;
+
+}
+	
+	.me-md-40{
+		margin-right: 40px;
+    .row-md{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
+  .product-row {
+    flex-direction: column;
+    align-items: center; /* 讓內容自適應高度 */
+  }
+  @media (max-width: 576px) {
+  .product-img,
+  .product-content {
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .product-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+}
+
+
+
+
+ /* 📱 手機寬度：縮小內部 padding */
+@media (max-width: 576px) {
+
+    .me-sm-40{
+	margin-right: 0px;
+    }
+    .container-rwd-padding {
+    margin-right: 12px;
+    margin-left: 12px;
+    }
+    .flex-md-row{
+    flex-direction: column
+    }
+
+     img {
+     max-width: 100% !important;
+     height: auto;
+     }
+    .col-5 {
+    width: 100% ;
+    max-width: 100%;
+     }
+
+    .col-7 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+
+
+  
+}
+
+
+@media(max-width: 767px){
+	.d-none-like {
+	display: none;
+    .bi-md-like{
+    display: none;
+        
+    }
+}}
+
+
+.ellipsis {
+  white-space: nowrap;          /* 不換行 */
+  overflow: hidden;             /* 超出隱藏 */
+  text-overflow: ellipsis;     /* 超出顯示 ... */
+}

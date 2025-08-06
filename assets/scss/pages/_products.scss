@@ -1,0 +1,87 @@
+
+
+.category .active {
+    color:  $primary-400;
+}
+
+
+.page-items .active {
+    background-color: #C0FA73;
+    font-weight: 400;
+}
+
+
+.page-items .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.copyright{
+    color: #6C757D;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.align-end{
+	align-items: flex-end;
+}
+
+.justify-center{
+    justify-content: center;    
+}
+
+.border-b{
+    border-bottom: solid 1px  #DEE2E6;
+}
+
+
+.footer-bg{
+    background: #F8F9FA;
+}
+
+.btn.active{
+    background-color: #C0FA73;
+}
+
+
+
+@media(max-width: 768px){
+
+ 	}
+	.p-md-24{
+		padding: 24px;
+	}
+	.me-md-40{
+		margin-right: 40px;
+
+}
+
+
+
+
+
+ /* 📱 手機寬度：縮小內部 padding */
+@media (max-width: 576px) {
+
+.me-sm-40{
+	margin-right: 0px;
+}
+  .container-rwd-padding {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+ .flex-md-row{
+ flex-direction: column
+ }
+
+}
+
+.section-lined {
+	border-bottom: 1px solid  $neutral-300;
+	padding-bottom: 48px;
+}
+
+

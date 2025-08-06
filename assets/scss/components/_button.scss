@@ -1,0 +1,160 @@
+
+@media(max-width:576px){
+	.btn{
+		padding: 8px 16px;
+	}
+
+	.justify-between {
+        justify-items: flex-start;
+    }
+}
+
+
+
+/*按鈕的通用樣式 	border: none;*/
+.btn{
+	
+	border-radius: 4px;
+	padding:12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	display: inline-block;
+	
+}
+
+
+
+
+
+.btn-light{
+	padding:12px 24px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 500;
+	border: 1px solid #212529;
+	cursor: pointer;
+	color: #212529;
+}
+
+
+.btn-dark{
+	
+	padding:12px 24px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: 1px solid #212529;
+	background-color: $neutral-900;
+	color: #ffffff;
+	
+}
+
+.production-action .btn{
+	width: 50%;
+	
+}
+
+
+.production-action .main-btn {
+  flex: 1; /* 撐滿剩下的空間 */
+}
+
+
+
+.btn-primary {
+	background-color: $primary-300;
+}
+
+
+
+
+  .production-action .icon-btn {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+    display: flex;
+  flex-shrink: 0; /* 防止被壓縮 */
+  align-items: center;
+  justify-content: center;
+}
+.bi-md-like{
+	padding-right: 0px;
+}
+
+
+
+@media(min-width:576px){
+	.d-display-like {
+	display: none;}
+}
+
+
+
+.btn-product-size1.active,
+.btn-product-size1:hover {
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #212529;
+
+}
+
+
+.btn-product-size1 {
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #DEE2E6;
+	
+
+}
+.color-btn.active,
+.color-btn:hover{
+    gap: 8px;
+	cursor: pointer;
+	align-items: center;
+	justify-items: center;
+}
+
+.btn-product-size2.active,
+.btn-product-size2:hover{
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #212529;
+}
+
+
+.btn-product-size2 img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover; /* 可避免圖片變形 */
+  display: block;
+  
+}
+
+
+.b-line{
+    border-bottom: 1px solid;
+    border-color: #DEE2E6;
+
+}
+
+
+@media(max-width: 767px){
+	.d-none-like {
+	display: none;
+    .bi-md-like{
+    display: none;
+        
+    }
+	  .production-action .icon-btn-L {
+  display: flex;
+
+
+}}}
